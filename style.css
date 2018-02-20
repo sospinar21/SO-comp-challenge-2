@@ -68,8 +68,9 @@
   color: #2d1822;
   }
 
-  p{
+  p,a{
   font-size: 12px;
+  color:grey;
   }
 
   .icon{
@@ -193,7 +194,7 @@
   }
 
   .link{
-  width: 9;
+   width: 90%;
   margin: 1vw;
   height: 9vh;
   overflow: hidden;
