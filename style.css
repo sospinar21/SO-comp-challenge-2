@@ -10,7 +10,7 @@
 
   header{
   width: 100%;
-     height: 22vh;
+  height: 22vh;
   display: flex;
   justify-content: space-between;
   }
@@ -49,12 +49,11 @@
   color: white;
   position: absolute;
   margin: 1vw 1vh 0vw 18.4vw;
-
   }
 
   .logo img{
-    width: 10vh;
-    margin-right: 10vh;
+  width: 10vh;
+  margin-right: 10vh;
   }
 
   h5{
@@ -89,7 +88,7 @@
   }
 
   .invert{
-    filter: invert(100%)
+  filter: invert(100%)
   }
 
   .userInfo{
@@ -112,7 +111,6 @@
   margin-right: 35px;
   font-size: 40px;
   }
-
 
   .menu{
   margin-left: 2vw;
@@ -198,6 +196,7 @@
   background-color: #f3f3f3;
   padding: 1.2vw;
   box-sizing: border-box;
+  cursor: pointer;
   }
 
   .description2{
@@ -205,124 +204,123 @@
   margin-left: 1vw;
   }
 
-.two{
+  .two{
   display:none;
-}
+  }
 
-.hidden{
+  .hidden{
   display:none;
-}
+  }
 
   @media only screen and (max-width: 870px) {
-    main{
-      display:none;
-    }
+  main{
+  display:none;
+  }
 
   .two{
-    width: 100%;
-    height: 100vh;
-    display: inherit;
+  width: 100%;
+  height: 100vh;
+  display: inherit;
   }
 
   .background{
-    width: 40.5vw;
-    height: 20vh;
-    display: inline-block;
+  width: 40.5vw;
+  height: 20vh;
+  display: inline-block;
   }
 
   .description{
-        margin-top: 23vh;
+  margin-top: 23vh;
   }
-
-  .background3{}
 
   .row{
-     width: 90%;
-    height: 57.7vh;
-    display: flex;
-    margin: 5px auto;
-    justify-content: space-around;
-        margin-bottom: 4vh;
-
+  width: 90%;
+  height: 57.7vh;
+  display: flex;
+  margin: 5px auto;
+  justify-content: space-around;
+  margin-bottom: 4vh;
   }
 
-.box{
-      width: 45%;
-}
+  .box{
+  width: 45%;
+  }
 
-.title h1{
-      font-size: 3.5vw;
-          margin-left: 3vw;
-}
+  .title h1{
+  font-size: 3.5vw;
+  margin-left: 3vw;
+  }
 
-.menu{
+  .menu{
   display:none;
-}
+  }
 
-.hidden{
-    display: inline-block;
-    font-size: 8vh;
-    margin-top: 6vw;
-    margin-left: 6vw;
-}
+  .hidden{
+  display: inline-block;
+  font-size: 8vh;
+  margin-top: 6vw;
+  margin-left: 6vw;
+  }
 
-.logo h1{
+  .logo h1{
   font-size: 6vh;
-}
-.rightHeader {
-    background-color: #2d1822;
-    width: 63%;
-}
-.icon{
-      height: 7vw;
-}
+  }
 
-.white{
+  .rightHeader {
+  background-color: #2d1822;
+  width: 63%;
+  }
+
+  .icon{
+  height: 7vw;
+  }
+
+  .white{
   color: #980d0d;
   margin-left: 32vw;
   margin-top: -2px;
-}
-
-.views {
-      margin-top: -2vh;
-}
-
   }
 
- @media only screen and (max-width: 540px) {
-.row{
+  .views {
+  margin-top: -2vh;
+  }
+  }
+
+  @media only screen and (max-width: 540px) {
+  .row{
   width: 100%;
   height: 60vh;
-}
+  }
 
-.background{
-      width: 47vw;
-}
+  .background{
+  width: 47vw;
+  }
 
-.title h1{
-      margin-left: 0;
-          font-size: 20px;
-    text-align: center;
-    padding-left: 0;
-}
+  .title h1{
+  margin-left: 0;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 0;
+  }
 
-.box{
+  .box{
   width: 47%;
-}
+  }
 
-.white{
-      margin-left: 35vw;
-}
+  .white{
+  margin-left: 35vw;
+  }
 
-.icon{
-      height: 5vw;
+  .icon{
+  height: 10vw;
+  margin-left: 1vh;
+  }
 
- }
+  .hidden{
+  margin-top: 10vw;
+  }
 
- .hidden{
-      margin-top: 10vw;
- }
-
- .logo img{
-      margin-right: 5vh;
- }
+  .logo img{
+  margin-right: 5vh;
+  }
+  } 
