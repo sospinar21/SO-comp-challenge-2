@@ -1,37 +1,328 @@
 
-header{
+  body{
+  font-size: 0;
+  margin: 0
+  }
+
+  main{
+  height: 120vh;
+  }
+
+  header{
   width: 100%;
-  background-color:black;
-  height:150px;
+     height: 22vh;
   display: flex;
   justify-content: space-between;
-}
+  }
 
-.row{
+  header h2, h3, header h1{
+  cursor:pointer;
+  }
+
+  h1, h2, h3, p, h4,h5 {
+  font-family: 'Muli', sans-serif;
+  margin:0;
+  }
+
+  h1{
+  font-size: 30px;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  }
+
+  h2{
+  color:white;
+  font-size:3vh;
+  }
+
+  h3{
+  font-weight: bolder;
+  font-size: 17px;
+  color: white;
+  }
+
+  .topPic h2{
+  margin-top: 3.3vh;
+  }
+
+  .white{
+  color: white;
+  position: absolute;
+  margin: 1vw 1vh 0vw 18.4vw;
+
+  }
+
+  .logo img{
+    width: 10vh;
+    margin-right: 10vh;
+  }
+
+  h5{
+  font-size: 13px;
+  font-weight: bolder;
+  margin-bottom: 1.5vh;
+  color: #6d3333;
+  }
+
+  h4{
+  font-size: 3vh;
+  color: #2d1822;
+  }
+
+  p{
+  font-size: 12px;
+  }
+
+  .icon{
+  position: absolute;
+  z-index: 6;
+  width: px;
+  height: 4.6vw;
+  margin: 1vw 0px 0px 1vw;
+  }
+
+  .background{
+  width: 22.1vw;
+  height: 16vh;
+  position: absolute;
+  -webkit-filter: contrast(1.2) grayscale(0.5);
+  }
+
+  .invert{
+    filter: invert(100%)
+  }
+
+  .userInfo{
   width: 100%;
-  height: 30vw;
+  height: 30%;
+  text-align: right;
+  }
+
+  .userInfo h3{
+  margin-right: 35px;
+  margin-top: 14px;
+  }
+
+  .logo{
+  width: 100%;
+  text-align: right;
+  }
+
+  .logo h1{
+  margin-right: 35px;
+  font-size: 40px;
+  }
+
+
+  .menu{
+  margin-left: 2vw;
+  width: 60vh;
   display: flex;
   justify-content: space-around;
-  background-color: magenta;
-  margin-top: 10px;
-}
+  margin-top: 10vh;
+  padding-top: 20px;
+  }
 
-.header{
+  .title{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  }
+
+  .title h1{
+  color: #2d1822;
+  padding-top: 40px;
+  padding-left: 39px;
+  }
+
+  .icon{
+  color:red;
+  }
+  .row{
+  width: 96%;
+  height: 55vh;;
+  margin-left: 2vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 17px;
+  }
+
+  .header{
   width: 50%;
   display: inline-block;
+  }
+
+  .leftHeader{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d1822;
+
+  }
+
+  .rightHeader{
+  background-color: #2d1822;
+  }
+
+  .box{
+  background-color: white;
+  display: inline-block;
+  width: 23%;
+  box-shadow: 0 2px 6px 0 #6d333340;
+
+  }
+
+  .description {
+  color:black;
+  margin-top: 19vh;
+  width: 90%;
+  margin-left: 1vw;
+  }
+
+  .description h2{
+  color:#6d3333;
+  font-weight: bolder;
+  font-size: 3vh;
+  }
+
+  .description p{
+  color:grey;
+  font-size: 10px;
+  }
+
+  .link{
+  width: 9;
+  margin: 1vw;
+  height: 9vh;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  padding: 1.2vw;
+  box-sizing: border-box;
+  }
+
+  .description2{
+  width: 90%;
+  margin-left: 1vw;
+  }
+
+.two{
+  display:none;
 }
 
-.leftHeader{
-  background-color:green;
+.hidden{
+  display:none;
 }
 
-.rightHeader{
-  background-color:yellow;
+  @media only screen and (max-width: 870px) {
+    main{
+      display:none;
+    }
+
+  .two{
+    width: 100%;
+    height: 100vh;
+    display: inherit;
+  }
+
+  .background{
+    width: 40.5vw;
+    height: 20vh;
+    display: inline-block;
+  }
+
+  .description{
+        margin-top: 23vh;
+  }
+
+  .background3{}
+
+  .row{
+     width: 90%;
+    height: 57.7vh;
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-around;
+        margin-bottom: 4vh;
+
+  }
+
+.box{
+      width: 45%;
+}
+
+.title h1{
+      font-size: 3.5vw;
+          margin-left: 3vw;
+}
+
+.menu{
+  display:none;
+}
+
+.hidden{
+    display: inline-block;
+    font-size: 8vh;
+    margin-top: 6vw;
+    margin-left: 6vw;
+}
+
+.logo h1{
+  font-size: 6vh;
+}
+.rightHeader {
+    background-color: #2d1822;
+    width: 63%;
+}
+.icon{
+      height: 7vw;
+}
+
+.white{
+  color: #980d0d;
+  margin-left: 32vw;
+  margin-top: -2px;
+}
+
+.views {
+      margin-top: -2vh;
+}
+
+  }
+
+ @media only screen and (max-width: 540px) {
+.row{
+  width: 100%;
+  height: 60vh;
+}
+
+.background{
+      width: 47vw;
+}
+
+.title h1{
+      margin-left: 0;
+          font-size: 20px;
+    text-align: center;
+    padding-left: 0;
 }
 
 .box{
-  background-color: black;
-  display: inline-block;
-  width: 24%;
-
+  width: 47%;
 }
+
+.white{
+      margin-left: 35vw;
+}
+
+.icon{
+      height: 5vw;
+
+ }
+
+ .hidden{
+      margin-top: 10vw;
+ }
+
+ .logo img{
+      margin-right: 5vh;
+ }
