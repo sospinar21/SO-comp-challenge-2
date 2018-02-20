@@ -136,6 +136,7 @@
   .icon{
   color:red;
   }
+
   .row{
   width: 96%;
   height: 55vh;;
@@ -167,7 +168,10 @@
   display: inline-block;
   width: 23%;
   box-shadow: 0 2px 6px 0 #6d333340;
+  }
 
+  .box:hover{
+    transform: scale(1.1); 
   }
 
   .description {
