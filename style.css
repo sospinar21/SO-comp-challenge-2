@@ -5,7 +5,7 @@
   }
 
   main{
-  height: 120vh;
+  height: 220vh;
   }
 
   header{
@@ -71,6 +71,19 @@
   p,a{
   font-size: 12px;
   color:grey;
+  }
+
+  .slide{
+    margin-top: 8vh;
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+  }
+
+   .example{
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 10vh;
   }
 
   .icon{
@@ -215,6 +228,10 @@
 
   .hidden{
   display:none;
+  }
+
+  .presentation{
+    width: 100%;
   }
 
   @media only screen and (max-width: 870px) {
